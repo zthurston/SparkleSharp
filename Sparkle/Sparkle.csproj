@@ -9,8 +9,7 @@
     <RootNamespace>Sparkle</RootNamespace>
     <AssemblyName>Sparkle</AssemblyName>
     <MacResourcePrefix>Resources</MacResourcePrefix>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <UseXamMacFullFramework>True</UseXamMacFullFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
